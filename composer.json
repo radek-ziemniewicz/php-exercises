@@ -1,0 +1,23 @@
+{
+    "name": "radek-ziemniewicz/php-exercises",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "open-source@quillstack.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "symfony/console": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Commands\\": "src/Commands/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1",
+        "phpunit/phpunit": "^9"
+    }
+}
