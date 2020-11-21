@@ -4,10 +4,12 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 use Commands\Arrays\FindIntegersByDifferenceCommand;
+use Commands\Output\PrintCubeEquationNumbersCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
 
 $application->add(new FindIntegersByDifferenceCommand());
+$application->add(new PrintCubeEquationNumbersCommand());
 
 $application->run();
